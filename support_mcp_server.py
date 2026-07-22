@@ -16,8 +16,9 @@ from mcp.server import Server, NotificationOptions
 from mcp.server.models import InitializationOptions
 import mcp.types as types
 
-# Knowledge base root (can be overridden by env var)
-KNOWLEDGE_ROOT = os.environ.get("KNOWLEDGE_ROOT", r"\\192.168.68.2\Backups\Workspace\work_knowledge")
+# Default knowledge root: ./knowledge relative to this script
+DEFAULT_KNOWLEDGE_ROOT = os.path.join(os.path.dirname(__file__), "knowledge")
+KNOWLEDGE_ROOT = os.environ.get("KNOWLEDGE_ROOT", DEFAULT_KNOWLEDGE_ROOT)
 
 server = Server("support-engineer")
 
