@@ -1,0 +1,6 @@
+id,title,category,content,tags
+1,How to reset password,Account Management,Go to settings and click 'Reset Password'. Follow the email instructions.,password,reset,account
+2,Understanding billing cycles,Billing,Billing cycles are monthly and start on the subscription date.,billing,subscription
+3,Troubleshooting API errors,API,Check your API key and endpoint URL. Ensure you are using the correct version.,api,error,troubleshooting
+4,Performance optimization,Performance,Optimize your dashboard queries by using indexes and caching.,performance,dashboard,optimization
+5,Payment gateway integration,Payments,Integrate with supported payment gateways using our SDK. Refer to the gateway documentation.,payments,sdk,integration

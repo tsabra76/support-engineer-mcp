@@ -1,0 +1,6 @@
+id,subject,description,status,date
+1,Cannot log in,User reports unable to log in to dashboard,Open,2025-01-15
+2,Payment failed,Transaction declined due to insufficient funds,Resolved,2025-01-16
+3,API timeout,API calls are timing out after 30 seconds,In Progress,2025-01-17
+4,Slow performance,Dashboard loading slowly,Open,2025-01-18
+5,Error 500,Internal server error on checkout,Resolved,2025-01-19
